@@ -1,38 +1,18 @@
 var saveBtn = document.querySelector(".saveBtn");
 var clearBtn = document.querySelector(".custom-clear");
-var saveBtnAll = document.querySelector(".saveBtn");
-var rows = document.getElementsByClassName("")
 
-var nineHour = document.getElementById("9");
-var tenHour = document.getElementById("10");
-var elevenHour = document.getElementById("11");
-var twelveHour = document.getElementById("12");
-var oneHour = document.getElementById("13");
-var twoHour = document.getElementById("14");
-var threeHour = document.getElementById("15");
-var fourHour = document.getElementById("16");
-var fiveHour = document.getElementById("17");
+var nineText = document.getElementById("9");
+var tenText = document.getElementById("10");
+var elevenText = document.getElementById("11");
+var twelveText = document.getElementById("12");
+var thirteenText = document.getElementById("13");
+var fourteenText = document.getElementById("14");
+var fifteenText = document.getElementById("15");
+var sixteenText = document.getElementById("16");
+var seventeenText = document.getElementById("17");
 
 $(document).ready(function() {
-    setColor()
-});
-
-function clearData() {
-    localStorage.clear();
-
-    nineHour.textContent = "";
-    tenHour.textContent = "";
-    elevenHour.textContent = "";
-    twelveHour.textContent = "";
-    oneHour.textContent = "";
-    twoHour.textContent = "";
-    threeHour.textContent = "";
-    fourHour.textContent = "";
-    fiveHour.textContent = "";  
-};
-
-clearBtn.addEventListener("click", function() {
-    clearData();
+    setColor();
 });
 
 function setColor() {

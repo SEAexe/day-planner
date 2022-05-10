@@ -1,5 +1,4 @@
 var saveBtn = document.querySelector(".saveBtn");
-var clearBtn = document.querySelector(".custom-clear");
 
 var nineText = document.getElementById("9");
 var tenText = document.getElementById("10");
